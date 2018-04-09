@@ -1,2 +1,3 @@
-The relational we can use it for small data 
-Non-relational we can use it for big data
+//Please delete this and write your explanation ...
+
+
