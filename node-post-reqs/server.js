@@ -1,17 +1,17 @@
 //Fill in vars here
-var 
- = /* Missing require statment */
-var 
- = /* Missing require statment */
-var 
- = /* Missing require statment */
+ var http = require('http');
+var url = require('url');
+var path=require(path')
 
 http.createServer(function (request, response) {
   var path = url.parse(request.url, true).pathname;
 
   if (request.method === 'POST') {
-    /*========YOUR CODE HERE=========*/
-  } else if (request.method === 'GET') {
+    request.on('data', function(data) {
+      //i will back
+  
+  }
+   else if (request.method === 'GET') {
     if(path === '/'){
       response.writeHead(200,{'Content-Type':'text/html'});
       fs.readFile(__dirname + '/index.html', function(err, data){
